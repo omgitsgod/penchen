@@ -1,11 +1,18 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import superman from './Superman-cutout.png';
 import './App.css';
 
 class App extends Component {
   render() {
     return (
-    <h1> Welcome </h1>
+      <div className="App">
+        <header className="App-header">
+          <img src={superman} className="App-logo" alt="logo" />
+          <p>
+            for all things penchenski
+          </p>
+        </header>
+      </div>
     );
   }
 }
