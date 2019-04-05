@@ -1,8 +1,15 @@
 import React, { Component } from 'react';
 import superman from './Superman-cutout.png';
 import './App.css';
+import ReactGA from 'react-ga'
 
 class App extends Component {
+
+  initializeReactGA = () => {
+    ReactGA.initialize('UA-137802850-1');
+    ReactGA.pageview('/homepage');
+}
+
   render() {
     return (
       <div className="App">
