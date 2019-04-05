@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+
 }
 
 .App-logo {
@@ -8,8 +9,16 @@
   pointer-events: none;
 }
 
+
+.App-tag {
+  font-size: 15px;
+}
+.App-greet {
+  font-size: 50px;
+}
+
 .App-header {
-  background-color: #282c34;
+
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -21,6 +30,25 @@
 
 .App-link {
   color: #61dafb;
+}
+myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 50;
+  min-width: 100%;
+  min-height: 100%;
+}
+.myVideo {
+ position: fixed;
+ right: 0;
+ bottom: 0;
+ top: 0;
+ left: 0;
+ object-fit: cover;
+ width: 100%;
+ min-height: 100%;
+ z-index: -99;
+ opacity: 0.8;
 }
 
 @keyframes App-logo-spin {

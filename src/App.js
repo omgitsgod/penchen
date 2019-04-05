@@ -1,7 +1,10 @@
 import React, { Component } from 'react';
-import superman from './Superman-cutout.png';
+import 'semantic-ui-css/semantic.min.css';
 import './App.css';
 import ReactGA from 'react-ga'
+import stars from './stars.mp4'
+import { Route  } from 'react-router-dom'
+import Main from './Main'
 
 class App extends Component {
 
@@ -11,14 +14,17 @@ class App extends Component {
 }
 
   render() {
+    ReactGA.initialize('UA-137802850-1');
+    ReactGA.pageview('/homepage');
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={superman} className="App-logo" alt="logo" />
-          <p>
-            for all things penchenski
-          </p>
-        </header>
+      <video className="myVideo" loop autoPlay muted>
+       <source src={stars} type='video/mp4' />
+       <source src={stars} type='video/ogg' />
+       Your browser does not support the video tag.
+     </video>
+       <Route exact path="/" component={Main} />
+
       </div>
     );
   }
