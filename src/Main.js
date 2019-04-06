@@ -18,13 +18,14 @@ class Main extends Component {
         <header className="App-header">
 
           <img src={superman} className="App-logo" alt="logo" />
+
           <br/>
           <Typography variant='display3' align='center' gutterBottom>
           Hello there, I'm Ryan!
           </Typography>
           <br/>
           <Typography variant='p' align='center' gutterBottom>
-          Full-Stack Software Engineer | Giant | Physics Enthusiast
+          Full-Stack Software Engineer | Physics Enthusiast | Lover Of Puzzles
           </Typography>
 
         </header>
