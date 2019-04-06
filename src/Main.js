@@ -24,7 +24,7 @@ class Main extends Component {
           </Typography>
           <br/>
           <Typography variant='p' align='center' gutterBottom>
-          Full-Stack Software Engineer | Giant | Physics Enthusiest
+          Full-Stack Software Engineer | Giant | Physics Enthusiast
           </Typography>
 
         </header>
