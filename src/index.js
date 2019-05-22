@@ -8,6 +8,8 @@ import { grey, blue, red, green} from '@material-ui/core/colors'
 import { CssBaseline } from '@material-ui/core'
 import * as serviceWorker from './serviceWorker';
 import dotenv from 'dotenv'
+import { pdfjs } from 'react-pdf';
+pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
 const theme = createMuiTheme({
   palette: {
