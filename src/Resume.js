@@ -28,6 +28,7 @@ class Resume extends Component {
         <Grid container spacing={24}>
          <Grid item xs={12}>
          <Document file={resume}
+          className="pdf"
           noData={<h4>Try again later</h4>}>
            <Page pageNumber={1} />
          </Document>

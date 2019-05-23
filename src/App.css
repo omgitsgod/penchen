@@ -60,6 +60,21 @@ myVideo {
   }
 }
 .myImage {
-  width: 600px;
-  height: 400px;
+  width: 80%;
+
+}
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.center a {
+    margin: 0 5px;
+}
+.pdf {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
 }

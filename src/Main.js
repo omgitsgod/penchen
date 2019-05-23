@@ -4,6 +4,8 @@ import superman from './Superman-cutout.png';
 import './App.css';
 import ReactGA from 'react-ga'
 import { Typography } from '@material-ui/core'
+import Icon from '@mdi/react'
+import { mdiLinkedin, mdiGithubCircle, mdiMedium } from '@mdi/js'
 
 class Main extends Component {
 
@@ -27,7 +29,31 @@ class Main extends Component {
           <Typography variant='p' align='center' gutterBottom>
           Full-Stack Software Engineer | Physics Enthusiast | Lover Of Puzzles
           </Typography>
+          <br />
+          <br />
+          <div className="center">
+          <a href="https://www.linkedin.com/in/penchenski/" target="blank">
+          <Icon path={mdiLinkedin}
+            size={3}
 
+            color="white"
+            />
+          </a>
+          <a href="https://github.com/omgitsgod/" target="blank">
+          <Icon path={mdiGithubCircle}
+            size={3}
+
+            color="white"
+            />
+          </a>
+          <a href="https://medium.com/@omgitsgod" target="blank">
+          <Icon path={mdiMedium}
+            size={3}
+
+            color="white"
+            />
+          </a>
+          </div>
         </header>
       </div>
     );
