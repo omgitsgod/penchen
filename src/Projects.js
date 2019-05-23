@@ -18,16 +18,26 @@ class Projects extends Component {
     return (
       <Grid container spacing={24}>
         <Grid item xs={6}>
-          <Paper >politic</Paper>
+          <Paper >
+          <Typography gutterBottom variant="h3">
+          politic
+          </Typography>
+          <br/>
           <a href="https://politic.penchenski.com" target="blank">
           <img src={politic} className="myImage" alt="Politic Screenshot"/>
           </a>
+          </Paper>
         </Grid>
         <Grid item xs={6}>
-          <Paper >Reppit</Paper>
+          <Paper>
+          <Typography gutterBottom variant="h3">
+          Reppit
+          </Typography>
+          <br/>
           <a href="https://reppit.penchenski.com" target="blank">
-          <img src={reppit} className="myImage" alt="Politic Screenshot"/>
+          <img src={reppit} className="myImage" alt="Reppit Screenshot"/>
           </a>
+          </Paper>
         </Grid>
         </Grid>
     );
