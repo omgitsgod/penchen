@@ -16,30 +16,34 @@ class Projects extends Component {
     ReactGA.initialize('UA-137802850-1');
     ReactGA.pageview('/projects');
     return (
-      <Grid container spacing={24}>
-        <Grid item xs={6}>
-          <Paper >
-          <Typography gutterBottom variant="h3">
-          politic
-          </Typography>
-          <br/>
-          <a href="https://politic.penchenski.com" target="blank">
-          <img src={politic} className="myImage" alt="Politic Screenshot"/>
-          </a>
-          </Paper>
-        </Grid>
-        <Grid item xs={6}>
-          <Paper>
-          <Typography gutterBottom variant="h3">
-          Reppit
-          </Typography>
-          <br/>
-          <a href="https://reppit.penchenski.com" target="blank">
-          <img src={reppit} className="myImage" alt="Reppit Screenshot"/>
-          </a>
-          </Paper>
-        </Grid>
-        </Grid>
+      <div>
+      <br />
+      <br />
+        <Grid container spacing={24}>
+          <Grid item xs={6}>
+            <Paper >
+            <Typography gutterBottom variant="h3">
+            politic
+            </Typography>
+            <br/>
+            <a href="https://politic.penchenski.com" target="blank">
+            <img src={politic} className="myImage" alt="Politic Screenshot"/>
+            </a>
+            </Paper>
+          </Grid>
+          <Grid item xs={6}>
+            <Paper>
+            <Typography gutterBottom variant="h3">
+            Reppit
+            </Typography>
+            <br/>
+            <a href="https://reppit.penchenski.com" target="blank">
+            <img src={reppit} className="myImage" alt="Reppit Screenshot"/>
+            </a>
+            </Paper>
+          </Grid>
+          </Grid>
+        </div>
     );
   }
 }

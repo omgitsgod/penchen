@@ -22,15 +22,18 @@ class Resume extends Component {
     ReactGA.initialize('UA-137802850-1');
     ReactGA.pageview('/resume');
     return (
-      <Grid container spacing={24}>
-       <Grid item xs={12}>
-       <Document file={resume}
-
-                 noData={<h4>Please select a file</h4>}>
-         <Page pageNumber={1} />
-       </Document>
-       </Grid>
-       </Grid>
+      <div>
+      <br />
+      <br />
+        <Grid container spacing={24}>
+         <Grid item xs={12}>
+         <Document file={resume}
+          noData={<h4>Try again later</h4>}>
+           <Page pageNumber={1} />
+         </Document>
+         </Grid>
+         </Grid>
+       </div>
     );
   }
 }

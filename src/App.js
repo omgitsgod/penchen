@@ -4,7 +4,7 @@ import './App.css';
 import ReactGA from 'react-ga'
 import stars from './stars.mp4'
 import { Route  } from 'react-router-dom'
-import { Tab, Tabs} from '@material-ui/core'
+import { Tab, Tabs, Typography} from '@material-ui/core'
 import Main from './Main'
 import Projects from './Projects'
 import Resume from './Resume'
@@ -56,9 +56,9 @@ class App extends Component {
       indicatorColor="secondary"
       textColor="secondary"
     >
-      <Tab value={"Projects"} label="Projects" />
-      <Tab value={"Home"} label="Home" />
-      <Tab value={"Resume"} label="Resume" />
+      <Tab value={"Projects"} label=<Typography gutterBottom variant="h6">Projects</Typography> />
+      <Tab value={"Home"} label=<Typography gutterBottom variant="h6">Home</Typography> />
+      <Tab value={"Resume"} label=<Typography gutterBottom variant="h6">Resume</Typography> />
 
     </Tabs>
        {view}
