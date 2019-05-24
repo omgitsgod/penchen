@@ -5,7 +5,7 @@ import './App.css';
 import ReactGA from 'react-ga'
 import { Typography } from '@material-ui/core'
 import Icon from '@mdi/react'
-import { mdiLinkedinBox, mdiGithubCircle, mdiMedium, mdiEmailOutline } from '@mdi/js'
+import { mdiLinkedinBox, mdiGithubCircle, mdiMedium, mdiEmailOutline, mdiStackOverflow } from '@mdi/js'
 
 class Main extends Component {
 
@@ -48,6 +48,13 @@ class Main extends Component {
           </a>
           <a href="https://medium.com/@omgitsgod" target="blank">
           <Icon path={mdiMedium}
+            size={3}
+
+            color="white"
+            />
+          </a>
+          <a href="www.stackoverflow.com" target="blank">
+          <Icon path={mdiStackOverflow}
             size={3}
 
             color="white"
