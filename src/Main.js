@@ -53,7 +53,7 @@ class Main extends Component {
             color="white"
             />
           </a>
-          <a href="www.stackoverflow.com" target="blank">
+          <a href="https://stackoverflow.com" target="blank">
           <Icon path={mdiStackOverflow}
             size={3}
 
