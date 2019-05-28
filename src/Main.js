@@ -53,13 +53,6 @@ class Main extends Component {
             color="white"
             />
           </a>
-          <a href="https://stackoverflow.com" target="blank">
-          <Icon path={mdiStackOverflow}
-            size={3}
-
-            color="white"
-            />
-          </a>
           <a href="mailto:rpenchenski@gmail.com" target="blank">
           <Icon path={mdiEmailOutline}
             size={3}
