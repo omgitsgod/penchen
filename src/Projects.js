@@ -7,6 +7,7 @@ import { Typography } from '@material-ui/core'
 import { Grid , Paper} from '@material-ui/core'
 import politic from './politicScreenshot.png'
 import reppit from './reppitScreenshot.png'
+import metrognome from './metrognomeScreenshot.png'
 
 class Projects extends Component {
 
@@ -39,6 +40,17 @@ class Projects extends Component {
             <br/>
             <a href="https://reppit.penchenski.com" target="blank">
             <img src={reppit} className="myImage" alt="Reppit Screenshot"/>
+            </a>
+            </Paper>
+          </Grid>
+          <Grid item xs={6}>
+            <Paper>
+            <Typography gutterBottom variant="h3">
+            Metrognome
+            </Typography>
+            <br/>
+            <a href="http://metrognome.penchenski.com" target="blank">
+            <img src={metrognome} className="myImage" alt="Metrognome Screenshot"/>
             </a>
             </Paper>
           </Grid>
