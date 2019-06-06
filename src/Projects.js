@@ -49,8 +49,18 @@ class Projects extends Component {
             Metrognome
             </Typography>
             <br/>
-            <a href="http://metrognome.penchenski.com" target="blank">
+            <a href="https://metrognome.penchenski.com" target="blank">
             <img src={metrognome} className="myImage" alt="Metrognome Screenshot"/>
+            </a>
+            </Paper>
+          </Grid>
+          <Grid item xs={6}>
+            <Paper>
+            <Typography gutterBottom variant="h3">
+            Feelslike-Forecast
+            </Typography>
+            <br/>
+            <a href="http://forecast.penchenski.com" target="blank">
             </a>
             </Paper>
           </Grid>
