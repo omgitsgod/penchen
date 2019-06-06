@@ -57,7 +57,7 @@ class Projects extends Component {
           <Grid item xs={6}>
             <Paper>
             <Typography gutterBottom variant="h3">
-            Feelslike-Forecast
+            Feelslike Forecast
             </Typography>
             <br/>
             <a href="http://forecast.penchenski.com" target="blank">
