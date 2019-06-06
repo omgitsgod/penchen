@@ -8,6 +8,7 @@ import { Grid , Paper} from '@material-ui/core'
 import politic from './politicScreenshot.png'
 import reppit from './reppitScreenshot.png'
 import metrognome from './metrognomeScreenshot.png'
+import forecast from './forecastScreenshot.png'
 
 class Projects extends Component {
 
@@ -61,6 +62,7 @@ class Projects extends Component {
             </Typography>
             <br/>
             <a href="http://forecast.penchenski.com" target="blank">
+            <img src={forecast} className="myImage" alt="Forecast Screenshot"/>
             </a>
             </Paper>
           </Grid>
