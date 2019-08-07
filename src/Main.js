@@ -46,13 +46,6 @@ class Main extends Component {
             color="white"
             />
           </a>
-          <a href="https://medium.com/@omgitsgod" target="blank">
-          <Icon path={mdiMedium}
-            size={3}
-
-            color="white"
-            />
-          </a>
           <a href="mailto:rpenchenski@gmail.com" target="blank">
           <Icon path={mdiEmailOutline}
             size={3}
