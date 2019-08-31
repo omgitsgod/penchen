@@ -9,6 +9,9 @@ import politic from './politicScreenshot.png'
 import reppit from './reppitScreenshot.png'
 import metrognome from './metrognomeScreenshot.png'
 import forecast from './forecastScreenshot.png'
+import pictopal from './pictopalScreenshot.png'
+import fluxunit from './fluxunitScreenshot.png'
+import equanimity from './equanimityScreenshot.png'
 
 class Projects extends Component {
 
@@ -22,6 +25,39 @@ class Projects extends Component {
       <br />
       <br />
         <Grid container spacing={24}>
+          <Grid item xs={6}>
+            <Paper >
+            <Typography gutterBottom variant="h3">
+            PictoPal
+            </Typography>
+            <br/>
+            <a href="https://pictopal.penchenski.com" target="blank">
+            <img src={pictopal} className="myImage" alt="PictoPal Screenshot"/>
+            </a>
+            </Paper>
+          </Grid>
+          <Grid item xs={6}>
+            <Paper >
+            <Typography gutterBottom variant="h3">
+            fluxunit
+            </Typography>
+            <br/>
+            <a href="https://www.npmjs.com/package/fluxunit" target="blank">
+            <img src={fluxunit} className="myImage" alt="fluxunit Screenshot"/>
+            </a>
+            </Paper>
+          </Grid>
+          <Grid item xs={6}>
+            <Paper >
+            <Typography gutterBottom variant="h3">
+            Equanimity Yoga
+            </Typography>
+            <br/>
+            <a href="https://equanimityyoganyc.com" target="blank">
+            <img src={equanimity} className="myImage" alt="Equanimity Screenshot"/>
+            </a>
+            </Paper>
+          </Grid>
           <Grid item xs={6}>
             <Paper >
             <Typography gutterBottom variant="h3">
