@@ -1,9 +1,9 @@
-import React, { Component } from 'react';
+import React, { Component, Fragment } from 'react';
 import 'semantic-ui-css/semantic.min.css';
 import './App.css';
 import ReactGA from 'react-ga'
 import stars from './stars.mp4'
-import { Route  } from 'react-router-dom'
+import { Route, Link, Switch  } from 'react-router-dom'
 import { Tab, Tabs, Typography} from '@material-ui/core'
 import Main from './Main'
 import Projects from './Projects'
@@ -44,25 +44,33 @@ class App extends Component {
     }
     return (
       <div className="App">
+      <Route path="/" render={({location}) => (
+      <Fragment>
       <video className="myVideo" loop autoPlay muted>
        <source src={stars} type='video/mp4' />
        <source src={stars} type='video/ogg' />
        Your browser does not support the video tag.
      </video>
      <Tabs
-      value={this.state.tab}
-     onChange={this.handleChange}
+      value={location.pathname}
+      onChange={this.handleChange}
       variant="fullWidth"
       indicatorColor="secondary"
       textColor="secondary"
     >
-      <Tab value={"Projects"} label=<Typography gutterBottom variant="h6">Projects</Typography> />
-      <Tab value={"Home"} label=<Typography gutterBottom variant="h6">Home</Typography> />
-      <Tab value={"Resume"} label=<Typography gutterBottom variant="h6">Resume</Typography> />
+      <Tab value={"/projects"} label=<Typography gutterBottom variant="h6">Projects</Typography> component={Link} to="/projects" />
+      <Tab value={"/"} label=<Typography gutterBottom variant="h6">Home</Typography> component={Link} to="/"  />
+      <Tab value={"/resume"} label=<Typography gutterBottom variant="h6">Resume</Typography> component={Link} to="/resume" />
 
     </Tabs>
-       {view}
-
+      <Switch>
+      <Route exact path="/" component={Main} />
+      <Route exact path="/projects" component={Projects} />
+      <Route path="/resume" component={Resume} />
+      </Switch>
+      </Fragment>
+      )}
+      />
       </div>
     );
   }
