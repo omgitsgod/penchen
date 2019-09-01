@@ -1,17 +1,16 @@
 import React, { Component } from 'react';
 import 'semantic-ui-css/semantic.min.css';
-import superman from './Superman-cutout.png';
 import './App.css';
 import ReactGA from 'react-ga'
 import { Typography } from '@material-ui/core'
 import { Grid , Paper} from '@material-ui/core'
-import politic from './politicScreenshot.png'
-import reppit from './reppitScreenshot.png'
-import metrognome from './metrognomeScreenshot.png'
-import forecast from './forecastScreenshot.png'
-import pictopal from './pictopalScreenshot.png'
-import fluxunit from './fluxunitScreenshot.png'
-import equanimity from './equanimityScreenshot.png'
+import politic from './imgs/politicScreenshot.png'
+import reppit from './imgs/reppitScreenshot.png'
+import metrognome from './imgs/metrognomeScreenshot.png'
+import forecast from './imgs/forecastScreenshot.png'
+import pictopal from './imgs/pictopalScreenshot.png'
+import fluxunit from './imgs/fluxunitScreenshot.png'
+import equanimity from './imgs/equanimityScreenshot.png'
 
 class Projects extends Component {
 
