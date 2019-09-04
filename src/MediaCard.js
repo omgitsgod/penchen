@@ -7,8 +7,9 @@ import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
+import Divider from '@material-ui/core/Divider';
 import Icon from '@mdi/react'
-import { mdiGithubCircle } from '@mdi/js'
+import { mdiGithubCircle, mdiWeb } from '@mdi/js'
 
 const useStyles = makeStyles({
   card: {
@@ -41,9 +42,17 @@ export default function MediaCard(props) {
           </Typography>
         </CardContent>
       </CardActionArea>
+      <Divider />
       <CardActions>
-      <a href="www.github.com">
+      <a href={props.git}>
       <Icon path={mdiGithubCircle}
+        size={2}
+
+        color="white"
+        />
+      </a>
+      <a href={props.link} target="blank">
+      <Icon path={mdiWeb}
         size={2}
 
         color="white"
