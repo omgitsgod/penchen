@@ -4,6 +4,7 @@ import './App.css';
 import ReactGA from 'react-ga'
 import { Typography } from '@material-ui/core'
 import { Grid , Paper} from '@material-ui/core'
+import MediaCard from './MediaCard'
 import politic from './imgs/politicScreenshot.png'
 import reppit from './imgs/reppitScreenshot.png'
 import metrognome from './imgs/metrognomeScreenshot.png'
@@ -23,85 +24,33 @@ class Projects extends Component {
       <div>
       <br />
       <br />
-        <Grid container spacing={24}>
-          <Grid item xs={6}>
-            <Paper >
-            <Typography gutterBottom variant="h3">
-            PictoPal
-            </Typography>
-            <br/>
-            <a href="https://pictopal.penchenski.com" target="blank">
-            <img src={pictopal} className="myImage" alt="PictoPal Screenshot"/>
-            </a>
-            </Paper>
-          </Grid>
-          <Grid item xs={6}>
-            <Paper >
-            <Typography gutterBottom variant="h3">
-            fluxunit
-            </Typography>
-            <br/>
-            <a href="https://www.npmjs.com/package/fluxunit" target="blank">
-            <img src={fluxunit} className="myImage" alt="fluxunit Screenshot"/>
-            </a>
-            </Paper>
-          </Grid>
-          <Grid item xs={6}>
-            <Paper >
-            <Typography gutterBottom variant="h3">
-            Equanimity Yoga
-            </Typography>
-            <br/>
-            <a href="https://equanimityyoganyc.com" target="blank">
-            <img src={equanimity} className="myImage" alt="Equanimity Screenshot"/>
-            </a>
-            </Paper>
-          </Grid>
-          <Grid item xs={6}>
-            <Paper >
-            <Typography gutterBottom variant="h3">
-            politic
-            </Typography>
-            <br/>
-            <a href="https://politic.penchenski.com" target="blank">
-            <img src={politic} className="myImage" alt="Politic Screenshot"/>
-            </a>
-            </Paper>
-          </Grid>
-          <Grid item xs={6}>
-            <Paper>
-            <Typography gutterBottom variant="h3">
-            Reppit
-            </Typography>
-            <br/>
-            <a href="https://reppit.penchenski.com" target="blank">
-            <img src={reppit} className="myImage" alt="Reppit Screenshot"/>
-            </a>
-            </Paper>
-          </Grid>
-          <Grid item xs={6}>
-            <Paper>
-            <Typography gutterBottom variant="h3">
-            Metrognome
-            </Typography>
-            <br/>
-            <a href="https://metrognome.penchenski.com" target="blank">
-            <img src={metrognome} className="myImage" alt="Metrognome Screenshot"/>
-            </a>
-            </Paper>
-          </Grid>
-          <Grid item xs={6}>
-            <Paper>
-            <Typography gutterBottom variant="h3">
-            Feelslike Forecast
-            </Typography>
-            <br/>
-            <a href="http://forecast.penchenski.com" target="blank">
-            <img src={forecast} className="myImage" alt="Forecast Screenshot"/>
-            </a>
-            </Paper>
-          </Grid>
-          </Grid>
+      <br />
+        <div className="gridy">
+          <Grid container spacing={24} alignItems="center"
+    justify="center">
+            <Grid item xs={6}>
+              <MediaCard name="PictoPal" img={pictopal} link="https://pictopal.penchenski.com" text="Drawing app"/>
+            </Grid>
+            <Grid item xs={6}>
+              <MediaCard name="fluxunit" img={fluxunit} link="https://www.npmjs.com/package/fluxunit" text="A simple way to convert units of measurement"/>
+            </Grid>
+            <Grid item xs={6}>
+              <MediaCard name="Equanimity Yoga" img={equanimity} link="https://equanimityyoganyc.com" text=""/>
+            </Grid>
+            <Grid item xs={6}>
+              <MediaCard name="politic" img={politic} link="http://politic.penchenski.com" text="Find out whats going on in politics"/>
+            </Grid>
+            <Grid item xs={6}>
+              <MediaCard name="Reppit" img={reppit} link="http://reppit.penchenski.com" text="Track workouts"/>
+            </Grid>
+            <Grid item xs={6}>
+              <MediaCard name="Metrognome" img={metrognome} link="http://metrognome.penchenski.com" text="Simple React metronome with custom timer"/>
+            </Grid>
+            <Grid item xs={6}>
+              <MediaCard name="Feelslike Forecast" img={forecast} link="http://forecast.penchenski.com" text="Simple weather app with forecast support by day"/>
+            </Grid>
+            </Grid>
+          </div>
         </div>
     );
   }
