@@ -28,25 +28,25 @@ class Projects extends Component {
         <div className="gridy">
           <Grid container spacing={24} alignItems="center"
     justify="center">
-            <Grid item md={6}>
+            <Grid item md={6} sm={12}>
               <MediaCard name="PictoPal" img={pictopal} link="https://pictopal.penchenski.com" text="Drawing app" git="https://github.com/omgitsgod/pictopal-front"/>
             </Grid>
-            <Grid item md={6}>
+            <Grid item md={6} sm={12}>
               <MediaCard name="fluxunit" img={fluxunit} link="https://www.npmjs.com/package/fluxunit" text="A simple way to convert units of measurement" git="https://github.com/omgitsgod/fluxunit"/>
             </Grid>
-            <Grid item md={6}>
+            <Grid item md={6} sm={12}>
               <MediaCard name="Equanimity Yoga" img={equanimity} link="https://equanimityyoganyc.com" text="" git="https://github.com/omgitsgod/yoga_2019"/>
             </Grid>
-            <Grid item md={6}>
+            <Grid item md={6} sm={12}>
               <MediaCard name="politic" img={politic} link="http://politic.penchenski.com" text="Find out whats going on in politics" git="https://github.com/omgitsgod/politic-heroku"/>
             </Grid>
-            <Grid item md={6}>
+            <Grid item md={6} sm={12}>
               <MediaCard name="Reppit" img={reppit} link="http://reppit.penchenski.com" text="Track workouts" git="https://github.com/omgitsgod/reppit-frontend"/>
             </Grid>
-            <Grid item md={6}>
+            <Grid item md={6} sm={12}>
               <MediaCard name="Metrognome" img={metrognome} link="http://metrognome.penchenski.com" text="Simple React metronome with custom timer" git="https://github.com/omgitsgod/metrognome"/>
             </Grid>
-            <Grid item md={6}>
+            <Grid item md={6} sm={12}>
               <MediaCard name="Feelslike Forecast" img={forecast} link="http://forecast.penchenski.com" text="Simple weather app with forecast support by day" git="https://github.com/omgitsgod/feelslike-forecast"/>
             </Grid>
             </Grid>
