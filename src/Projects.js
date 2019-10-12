@@ -12,6 +12,7 @@ import forecast from './imgs/forecastScreenshot.png'
 import pictopal from './imgs/pictopalScreenshot.png'
 import fluxunit from './imgs/fluxunitScreenshot.png'
 import equanimity from './imgs/equanimityScreenshot.png'
+import vinyasa from './imgs/vinyasaScreenshot.png'
 
 class Projects extends Component {
 
@@ -28,6 +29,9 @@ class Projects extends Component {
         <div className="gridy">
           <Grid container spacing={24} alignItems="center"
     justify="center">
+            <Grid item md={6} sm={12}>
+              <MediaCard name="Vinyasa Flow" img={vinyasa} link="https://vinyasa.penchenski.com" text="Plan out your yoga classes" git="https://github.com/omgitsgod/vinyasa-front"/>
+            </Grid>
             <Grid item md={6} sm={12}>
               <MediaCard name="PictoPal" img={pictopal} link="https://pictopal.penchenski.com" text="Drawing app" git="https://github.com/omgitsgod/pictopal-front"/>
             </Grid>
