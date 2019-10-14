@@ -82,3 +82,11 @@ myVideo {
 .gridy {
   margin-left: 15%;
 }
+
+.icon:hover {
+  margin-top: -5vh;
+}
+
+@media only screen and (max-width: 768px) {
+
+}
