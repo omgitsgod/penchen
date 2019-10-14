@@ -35,21 +35,21 @@ class Main extends Component {
           <a href="https://www.linkedin.com/in/penchenski/" target="blank">
           <Icon path={mdiLinkedinBox}
             size={3}
-
+            className='icon'
             color="white"
             />
           </a>
           <a href="https://github.com/omgitsgod/" target="blank">
           <Icon path={mdiGithubCircle}
             size={3}
-
+            className='icon'
             color="white"
             />
           </a>
           <a href="mailto:rpenchenski@gmail.com" target="blank">
           <Icon path={mdiEmailOutline}
             size={3}
-
+            className='icon'
             color="white"
             />
           </a>
