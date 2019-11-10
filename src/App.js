@@ -1,5 +1,4 @@
 import React, { Component, Fragment } from 'react';
-import 'semantic-ui-css/semantic.min.css';
 import './App.css';
 import ReactGA from 'react-ga'
 import stars from './stars.mp4'

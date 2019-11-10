@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import 'semantic-ui-css/semantic.min.css';
 import superman from './imgs/Superman-cutout.png';
 import './App.css';
 import ReactGA from 'react-ga'
