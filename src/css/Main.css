@@ -1,0 +1,47 @@
+.Main {
+  text-align: center;
+}
+
+.superman {
+  animation: superman-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.Main-div {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.center a {
+    margin: 0 3px;
+}
+
+
+.icon:hover {
+  margin-top: -5vh;
+}
+
+@keyframes superman-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media only screen and (max-width: 768px) {
+
+}
