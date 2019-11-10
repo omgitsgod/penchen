@@ -5,8 +5,8 @@
   "dependencies": {
     "@material-ui/core": "^3.9.3",
     "@material-ui/styles": "^4.3.3",
-    "@mdi/js": "^3.6.95",
-    "@mdi/react": "^1.1.1",
+    "@mdi/js": "^4.5.95",
+    "@mdi/react": "^1.2.1",
     "g": "^2.0.1",
     "global": "^4.3.2",
     "prop-types": "^15.7.2",
