@@ -6,7 +6,7 @@ import { Typography } from '@material-ui/core';
 import Icon from '@mdi/react';
 import { mdiLinkedinBox, mdiGithubCircle, mdiEmailOutline } from '@mdi/js';
 
-function Main () {
+function Main() {
   useEffect(() => {
     ReactGA.initialize('UA-137802850-1');
     ReactGA.pageview('/homepage');

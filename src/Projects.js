@@ -13,7 +13,7 @@ import fluxunit from './imgs/fluxunitScreenshot.png'
 import equanimity from './imgs/equanimityScreenshot.png'
 import vinyasa from './imgs/vinyasaScreenshot.png'
 
-function Projects () {
+function Projects() {
 
   useEffect(() => {
     new WOW.WOW().init()
