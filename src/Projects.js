@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import './App.css';
+import './css/Projects.css';
 import WOW from 'wowjs'
 import ReactGA from 'react-ga'
 import { Grid } from '@material-ui/core'
