@@ -27,10 +27,6 @@ myVideo {
     transform: rotate(360deg);
   }
 }
-.myImage {
-  width: 80%;
-
-}
 
 .icon:hover {
   margin-top: -5vh;
