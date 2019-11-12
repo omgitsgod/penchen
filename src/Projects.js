@@ -16,7 +16,12 @@ import vinyasa from './imgs/vinyasaScreenshot.png'
 function Projects() {
 
   useEffect(() => {
-    new WOW.WOW().init()
+    if (typeof window !== 'undefined') {
+      const wow = new WOW.WOW({
+        live: false,
+      })
+      wow.init()
+    }
     ReactGA.initialize('UA-137802850-1');
     ReactGA.pageview('/projects');
   }, []);
