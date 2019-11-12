@@ -18,7 +18,7 @@ function Projects() {
   useEffect(() => {
     if (typeof window !== 'undefined') {
       const wow = new WOW.WOW({
-        live: false,
+        live: true,
       })
       wow.init()
     }
