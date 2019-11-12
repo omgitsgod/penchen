@@ -1,7 +1,15 @@
+
 .pdf {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 40%;
+  width: 40vw;
   margin-top: 10vh;
+}
+
+@media only screen and (max-width: 600px) {
+  .pdf {
+    margin-left: 0px;
+  }
+
 }
