@@ -19,11 +19,12 @@ function Main() {
         <img src={superman} className="superman" alt="Superman" />
         </div>
         <br/>
-        <Typography variant='display3' align='center' gutterBottom>
+        <Typography variant='h3' align='center' gutterBottom>
           Hello there, I'm Ryan!
         </Typography>
+
         <br/>
-        <Typography variant='p' align='center' gutterBottom>
+        <Typography variant='headline' align='center' gutterBottom>
           Full-Stack Software Engineer | Physics Enthusiast | Lover Of Puzzles
         </Typography>
         <br />
