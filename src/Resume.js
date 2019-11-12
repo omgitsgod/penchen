@@ -12,13 +12,14 @@ function Resume () {
   }, []);
 
   return (
-    <div>
+    <div className='resume'>
       <br />
       <br />
       <Grid container spacing={24}>
        <Grid item xs={12}>
          <Document file={resume}
           className="pdf"
+          width= '5%'
           noData={<h4>Try again later</h4>}>
            <Page pageNumber={1} />
          </Document>
