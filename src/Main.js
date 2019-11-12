@@ -13,12 +13,11 @@ function Main() {
   }, []);
 
   return (
-    <div className="Main">
 
       <div className="Main-div">
-
+        <div className='superman-container'>
         <img src={superman} className="superman" alt="Superman" />
-
+        </div>
         <br/>
         <Typography variant='display3' align='center' gutterBottom>
           Hello there, I'm Ryan!
@@ -53,7 +52,6 @@ function Main() {
           </a>
         </div>
       </div>
-    </div>
   );
 }
 
