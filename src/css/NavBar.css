@@ -1,0 +1,15 @@
+.navbar-div {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  right: 0px;
+  margin-bottom: 10vh;
+}
+
+.navy {
+  margin-right: 5vw;
+  text-decoration: none;
+  color: white;
+  font-family: 'system-ui';
+  font-size: 24px;
+}
