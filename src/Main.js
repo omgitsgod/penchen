@@ -24,7 +24,7 @@ function Main() {
         </Typography>
 
         <br/>
-        <Typography variant='headline' align='center' gutterBottom>
+        <Typography variant='h5' align='center' gutterBottom>
           Full-Stack Software Engineer | Physics Enthusiast | Lover Of Puzzles
         </Typography>
         <br />
