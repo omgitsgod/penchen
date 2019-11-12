@@ -19,9 +19,7 @@ function App() {
      <source src={stars} type='video/ogg' />
      Your browser does not support the video tag.
    </video>
-    <div>
     <NavBar />
-    </div>
     <Switch>
     <Route exact path="/" component={Main} />
     <Route exact path="/projects" component={Projects} />
