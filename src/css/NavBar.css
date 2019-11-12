@@ -13,3 +13,7 @@
   font-family: 'system-ui';
   font-size: 24px;
 }
+
+.navbar p:hover {
+  color: #f44862;
+}
