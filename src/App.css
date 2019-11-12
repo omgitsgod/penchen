@@ -1,36 +1,4 @@
-.App {
-  text-align: center;
 
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
-
-.App-tag {
-  font-size: 15px;
-}
-.App-greet {
-  font-size: 50px;
-}
-
-.App-header {
-
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
 myVideo {
   position: fixed;
   right: 0;
@@ -62,25 +30,6 @@ myVideo {
 .myImage {
   width: 80%;
 
-}
-.center {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.center a {
-    margin: 0 3px;
-}
-.pdf {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 40%;
-}
-
-.gridy {
-  margin-left: 15%;
 }
 
 .icon:hover {
