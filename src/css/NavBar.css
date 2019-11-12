@@ -6,7 +6,7 @@
   margin-bottom: 10vh;
 }
 
-.navy {
+.navbar a {
   margin-right: 5vw;
   text-decoration: none;
   color: white;
@@ -15,5 +15,9 @@
 }
 
 .navbar p:hover {
+  color: #f44862;
+}
+
+.active {
   color: #f44862;
 }
