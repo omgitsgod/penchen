@@ -38,6 +38,9 @@ h2 {
 .card_image {
   width: 100%;
   height: 30vh;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: #141617;
 }
 
 .card_text {
