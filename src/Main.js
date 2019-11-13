@@ -25,7 +25,7 @@ function Main() {
 
         <br/>
         <Typography variant='h5' align='center' gutterBottom>
-          Full-Stack Software Engineer | Theoretical Physics Enthusiast | Solver Of Puzzles
+          Full-Stack Software Engineer | Theoretical Physics Enthusiast | Solver Of Puzzles | Child Halloween Costume Model
         </Typography>
         <br />
         <br />
