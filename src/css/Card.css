@@ -81,3 +81,9 @@ h2 {
   text-transform: uppercase;
   margin-left: auto; /* move over to the right */
 }
+
+@media only screen and (max-width: 600px) {
+  .card {
+    width: 80vw;
+  }
+}
