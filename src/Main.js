@@ -20,7 +20,7 @@ function Main() {
         </div>
         <br/>
         <Typography variant='h3' align='center' gutterBottom>
-          Hello there, I'm Ryan!
+          Greetings, I'm Ryan!
         </Typography>
 
         <br/>
