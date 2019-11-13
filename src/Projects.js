@@ -37,22 +37,22 @@ function Projects() {
           </Grid>
           <Grid item md={6} sm={12}>
             <div data-wow-delay="1.25s">
-            <Card className="project" name="PictoPal" img={pictopal} tech='' link="https://pictopal.penchenski.com" text="Drawing app" git="https://github.com/omgitsgod/pictopal-front"/>
+            <Card className="project" name="PictoPal" img={pictopal} tech='#React.js #Node.js #MongoDB' link="https://pictopal.penchenski.com" text="Drawing app" git="https://github.com/omgitsgod/pictopal-front"/>
             </div>
           </Grid>
           <Grid item md={6} sm={12}>
             <div data-wow-delay="1.5s">
-            <Card className="project" name="fluxunit" img={fluxunit} tech='' link="https://www.npmjs.com/package/fluxunit" text="A simple way to convert units of measurement" git="https://github.com/omgitsgod/fluxunit"/>
+            <Card className="project" name="fluxunit" img={fluxunit} tech='#Node.js' link="https://www.npmjs.com/package/fluxunit" text="A simple way to convert units of measurement" git="https://github.com/omgitsgod/fluxunit"/>
             </div>
           </Grid>
           <Grid item md={6} sm={12}>
             <div data-wow-delay="1.75s">
-            <Card className="project" name="Equanimity Yoga" img={equanimity} tech='' link="https://equanimityyoganyc.com" text="Homepage for Equanimity Yoga" git="https://github.com/omgitsgod/yoga_2019"/>
+            <Card className="project" name="Equanimity Yoga" img={equanimity} tech='#Bootstrap' link="https://equanimityyoganyc.com" text="Homepage for Equanimity Yoga" git="https://github.com/omgitsgod/yoga_2019"/>
             </div>
           </Grid>
           <Grid item md={6} sm={12}>
             <div data-wow-delay="1s">
-            <Card className="project" name="politic" img={politic} tech='' link="https://politic.penchenski.com" text="Find out whats going on in politics" git="https://github.com/omgitsgod/politic-heroku"/>
+            <Card className="project" name="politic" img={politic} tech='#React.js #Rails #Postgres' link="https://politic.penchenski.com" text="Find out whats going on in politics" git="https://github.com/omgitsgod/politic-heroku"/>
             </div>
           </Grid>
           <Grid item md={6} sm={12}>
@@ -62,12 +62,12 @@ function Projects() {
           </Grid>
           <Grid item md={6} sm={12}>
             <div data-wow-delay="1.5s">
-            <Card className="project" name="Metrognome" img={metrognome} tech='' link="https://metrognome.penchenski.com" text="Simple React metronome with custom timer" git="https://github.com/omgitsgod/metrognome"/>
+            <Card className="project" name="Metrognome" img={metrognome} tech='#React.js' link="https://metrognome.penchenski.com" text="Simple React metronome with custom timer" git="https://github.com/omgitsgod/metrognome"/>
             </div>
           </Grid>
           <Grid item md={6} sm={12}>
             <div data-wow-delay="1.75s">
-            <Card className="project" name="Feelslike Forecast" img={forecast} tech='' link="https://forecast.penchenski.com" text="Simple weather app with forecast support by day" git="https://github.com/omgitsgod/feelslike-forecast"/>
+            <Card className="project" name="Feelslike Forecast" img={forecast} tech='#React.js #Node.js' link="https://forecast.penchenski.com" text="Simple weather app with forecast support by day" git="https://github.com/omgitsgod/feelslike-forecast"/>
             </div>
           </Grid>
         </Grid>
