@@ -57,7 +57,7 @@ function Projects() {
           </Grid>
           <Grid item md={6} sm={12}>
             <div data-wow-delay="1.25s">
-            <Card className="project" name="Reppit" img={reppit} tech='' link="https://reppit.penchenski.com" text="Track workouts" git="https://github.com/omgitsgod/reppit-frontend"/>
+            <Card className="project" name="Reppit" img={reppit} tech='#React.js #Rails #Postgres' link="https://reppit.penchenski.com" text="Track workouts" git="https://github.com/omgitsgod/reppit-frontend"/>
             </div>
           </Grid>
           <Grid item md={6} sm={12}>
