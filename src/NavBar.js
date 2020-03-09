@@ -10,7 +10,6 @@ function NavBar() {
       <div className='navbar-div'>
         <NavLink exact to='/' activeStyle={{ color: '#f44862' }}><p>Home</p></NavLink>
         <NavLink to='/projects' activeStyle={{ color: '#f44862' }}><p>Projects</p></NavLink>
-        <NavLink to='/resume' activeStyle={{ color: '#f44862' }}><p>Resume</p></NavLink>
       </div>
     </div>
   )
