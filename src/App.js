@@ -14,6 +14,8 @@ function App() {
     console.log(fetchedData)
   };
   useEffect(() => {
+    ReactGA.initialize('UA-137802850-1');
+    ReactGA.pageview(window.location.pathname);
     getData();
   }, []);
   return (
