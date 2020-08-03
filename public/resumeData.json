@@ -1,0 +1,88 @@
+{
+  "main": {
+    "name":{
+      "first":"Ryan", 
+      "full":"Ryan Penchenski"
+    },
+    "description": "Full-Stack Software Engineer | Theoretical Physics Enthusiast | Solver Of Puzzles | Halloween Costume Model",
+    "image":"profilepic.jpg",
+    "bio":"",
+    "contactmessage":"Send me a message!",
+    "email": "rpenchenski@gmail.com",
+    "address":{
+      "city":"New York",
+      "state":"New York"
+    },
+    "website": "https://www.penchenski.com",
+    "resumeDownload":"/resume.pdf",
+    "social":[
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/penchenski",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"github",
+        "url":"https://github.com/omgitsgod",
+        "className":"fa fa-github"
+      },
+      {
+        "name":"email",
+        "url":"mailto:rpenchenski@gmail.com",
+        "className":"fa fa-envelope"
+      }
+    ]
+  },
+  "portfolio":{
+    "projects": [
+      {
+        "title":"Vinyasa Flow",
+        "category":"Track and schedule yoga sessions",
+        "image":"vinyasa-flow.png",
+        "url":"https://vinyasa.netlify.app"
+      },
+      {
+        "title":"Feelslike Forecast",
+        "category":"Grab local weather",
+        "image":"feelslike-forecast.png",
+        "url":"https://feelslike.netlify.app"
+      },
+      {
+        "title":"Metrognome",
+        "category":"Simple metronome",
+        "image":"metrognome.png",
+        "url":"https://metrognome.netlify.app"
+      },
+      {
+        "title":"Politic",
+        "category":"Find out more about politicians",
+        "image":"politic.png",
+        "url":"https://politic.netlify.app"
+      },
+      {
+        "title":"Reppit",
+        "category":"Track workouts",
+        "image":"reppit.png",
+        "url":"https://reppit.netlify.app"
+      },
+      {
+        "title":"Fluxunit",
+        "category":"Npm package to convert units",
+        "image":"fluxunit.png",
+        "url":"https://www.npmjs.com/package/fluxunit"
+      },
+      {
+        "title":"Pictopal",
+        "category":"Make art with friends",
+        "image":"pictopal.png",
+        "url":"https://pictopal.netlify.app"
+      },
+      {
+        "title":"Equanimity Yoga",
+        "category":"Local yoga studio website",
+        "image":"equanimity.png",
+        "url":"https://penchenski.com#portfolio"
+      }
+    ]
+  }
+}
