@@ -1,10 +1,9 @@
 import React from 'react';
-import '../css/App.css';
 import stars from '../stars.mp4';
 
 function Header(props) {
   const { data } = props;
-  const { name, occupation, description, city, social } = data;
+  const { name, description, social } = data;
   const networks = social.map((network) => (
     <li key={network.name}>
       <a href={network.url}>
