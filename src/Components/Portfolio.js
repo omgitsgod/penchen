@@ -14,8 +14,7 @@ function Portfolio(props) {
             </div>
           </div>
           <div className='link-icon'>
-            <a href={project.url} target='blank'><i className='fa fa-link'></i></a>
-            <a href="google.com" title="Front-End"><i className='fa fa-github'> Front-End</i></a>
+            <i className='fa fa-link'></i>
           </div>
         </a>
       </div>
