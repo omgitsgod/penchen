@@ -18,7 +18,7 @@ function Contact({ data }) {
       .join('&');
   const handleChange = (e) => {
     const { name, value } = e.target;
-    setFormData({...FormData, [name]: value});
+    setFormData({...formData, [name]: value});
   }
   const validate = (formData) => {
     let formErrors = {};
