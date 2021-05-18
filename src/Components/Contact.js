@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 
 function Contact({ data }) {
   const { email, contactmessage } = data;
