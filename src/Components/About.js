@@ -2,7 +2,7 @@ import React from 'react';
 
 function About(props) {
   const { data } = props;
-  const { name, image, bio, address, email, resumeDownload } = data;
+  const { name, image, bio, address, email } = data;
   const { city, state } = address;
   const profilepic = `images/${image}`;
 
