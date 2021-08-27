@@ -36,6 +36,18 @@
   "portfolio":{
     "projects": [
       {
+        "title":"CBRadar",
+        "category":"Find a CitiBike from your wrist!",
+        "image":"Cbradar.png",
+        "url":"https://cbradar.com/"
+      },
+      {
+        "title":"Paws For Pals",
+        "category":"Find your next rescue animal friend!",
+        "image":"paws.png",
+        "url":"https://paws.netlify.app"
+      },
+      {
         "title":"Vinyasa Flow",
         "category":"Track and schedule yoga sessions",
         "image":"vinyasa-flow.png",
