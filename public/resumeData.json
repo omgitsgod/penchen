@@ -45,13 +45,19 @@
         "title":"CBRadar Landing",
         "category":"Landing page for CBRadar",
         "image":"cbradar-landing.png",
-        "url":"https://cbradar.com/"
+        "url":"https://cbradar.com"
       },
       {
         "title":"Paws For Pals",
         "category":"Find your next rescue animal friend!",
         "image":"paws.png",
         "url":"https://paws.netlify.app"
+      },
+      {
+        "title":"Politic",
+        "category":"Find out more about politicians",
+        "image":"politic.png",
+        "url":"https://politic.netlify.app"
       },
       {
         "title":"Vinyasa Flow",
@@ -70,12 +76,6 @@
         "category":"Simple metronome",
         "image":"metrognome.png",
         "url":"https://metrognome-app.netlify.app"
-      },
-      {
-        "title":"Politic",
-        "category":"Find out more about politicians",
-        "image":"politic.png",
-        "url":"https://politic.netlify.app"
       },
       {
         "title":"Reppit",
