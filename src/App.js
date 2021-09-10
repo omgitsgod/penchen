@@ -11,7 +11,6 @@ function App() {
   const getData = async () => {
     const fetchedData = await fetch('/resumeData.json').then((r) => r.json());
     setData(fetchedData);
-    console.log(fetchedData)
   };
   useEffect(() => {
     ReactGA.initialize('UA-137802850-1');
