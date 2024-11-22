@@ -14,6 +14,7 @@ function Header(props) {
 
   return (
     <header id='home'>
+      {/*
       <nav id='nav-wrap'>
         <a className='mobile-btn' href='#nav-wrap' title='Show navigation'>
           Show navigation
@@ -44,6 +45,7 @@ function Header(props) {
           </li>
         </ul>
       </nav>
+      */}
               <video className="myVideo" loop autoPlay muted>
          <source src={stars} type='video/mp4' />
          <source src={stars} type='video/ogg' />
@@ -59,11 +61,12 @@ function Header(props) {
           <ul className='social'>{networks}</ul>
         </div>
       </div>
+      {/*
       <p className='scrolldown'>
         <a className='smoothscroll' href='#about'>
           <i className='icon-down-circle'></i>
         </a>
-      </p>
+      </p> */}
     </header>
   );
 }
